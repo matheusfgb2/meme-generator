@@ -1,21 +1,55 @@
+main {
+  display: flex;
+}
+
+#input-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#text-input {
+  padding: 8px;
+}
+
+#meme-insert {
+  padding: 8px;
+}
+
 #meme-image-container {
   margin-top: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border: 1px solid black;
-  height: 400px;
-  width: 400px;
+  height: 820px;
+  width: 820px;
 }
 
 #meme-image {
-  height: 400px;
-  width: 400px;
+  height: 820px;
+  width: 820px;
 }
 
 #meme-text {
   position: absolute;
-  top: 340px;
+  top: 700px;
   left: 15px;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
+  max-width: 50%;
+}
+
+#right-content {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  width: 600px;
+}
+
+#right-content div img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  border: 1px solid black;
 }

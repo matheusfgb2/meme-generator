@@ -9,15 +9,30 @@
 </head>
 <body>
   <main>
-    <section id="input-container">
-      <input type="text" id="text-input" maxlength="60">
-      <input type="file" id="meme-insert">
+    <section id="left-content">
+      <section id="input-container">
+        <input type="text" id="text-input" placeholder="Insert text" maxlength="60">
+        <input type="file" id="meme-insert">
+      </section>
+      <section>
+        <div id="meme-image-container">
+          <img src="" alt="" id="meme-image">
+          <p id="meme-text"></p>
+        </div>
+      </section>
+      <section>
+        <div id="buttons-container">
+          <button id="fire" style="background-color: rgb(255, 0, 0);">Fire</button>
+          <button id="water" style="background-color: rgb(0, 0, 255);">Water</button>
+          <button id="earth" style="background-color: rgb(0, 128, 0);">Earth</button>
+        </div>
+      </section>
     </section>
-    <section>
-      <div id="meme-image-container">
-        <img src="" alt="" id="meme-image">
-        <p id="meme-text"></p>
-      </div>
+    <section id="right-content">
+      <div id="meme-1"><img src="./imgs/meme1.png" alt=""></div>
+      <div id="meme-2"><img src="./imgs/meme2.png" alt=""></div>
+      <div id="meme-3"><img src="./imgs/meme3.png" alt=""></div>
+      <div id="meme-4"><img src="./imgs/meme4.png" alt=""></div>
     </section>
   </main>
   <script src="script.js"></script>
